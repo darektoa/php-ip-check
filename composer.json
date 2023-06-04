@@ -1,0 +1,18 @@
+{
+    "name": "darektoa/ip-check",
+    "description": "For check user's IP address",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Framework\\": "framework/"
+        }
+    },
+    "classmap": [
+        "app/",
+        "framework/"
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
